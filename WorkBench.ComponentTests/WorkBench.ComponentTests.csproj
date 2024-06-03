@@ -19,9 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WorkBench.Engine.CaesarCiphor\WorkBench.Engine.CaesarCipher.csproj" />
+    <ProjectReference Include="..\WorkBench.Engine.CaesarCipher\WorkBench.Engine.CaesarCipher.csproj" />
+    <ProjectReference Include="..\WorkBench.Engine.Cipher\WorkBench.Engine.Cipher.csproj" />
     <ProjectReference Include="..\WorkBench.Engine.FizzBuzz\WorkBench.Engine.FizzBuzz.csproj" />
-    <ProjectReference Include="..\WorkBench.Engine.Interfaces\WorkBench.Engine.Interfaces.csproj" />
     <ProjectReference Include="..\WorkBench.Engine.Protocols\WorkBench.Engine.Rules.csproj" />
     <ProjectReference Include="..\WorkBench.Engine.Rules.Bespoke\WorkBench.Engine.Rules.Bespoke.csproj" />
   </ItemGroup>

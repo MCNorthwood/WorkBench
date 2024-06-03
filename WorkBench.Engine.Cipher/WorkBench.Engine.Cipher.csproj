@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WorkBench.Engine.Interfaces.FizzBuzz\WorkBench.Engine.Interfaces.FizzBuzz.csproj" />
+    <ProjectReference Include="..\WorkBench.Engine.Interfaces.CeasarCipher\WorkBench.Engine.Interfaces.CeasarCipher.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
+using WorkBench.Engine.Cipher;
 using WorkBench.Engine.Interfaces.CaesarCipher;
-using WorkBench.Engine.Rules;
 
 namespace WorkBench.UnitTests;
 public class CaesarTest

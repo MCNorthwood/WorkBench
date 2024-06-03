@@ -12,7 +12,7 @@ public class EncipherComponentTest
     {
         var containerBuilder = new ContainerBuilder();
         containerBuilder.RegisterAssemblyTypes(Assembly.Load("WorkBench.Engine.CaesarCipher")).AsImplementedInterfaces();
-        containerBuilder.RegisterAssemblyTypes(Assembly.Load("WorkBench.Engine.Rules")).AsImplementedInterfaces();
+        containerBuilder.RegisterAssemblyTypes(Assembly.Load("WorkBench.Engine.Cipher")).AsImplementedInterfaces();
         var container = containerBuilder.Build();
 
         _encipher = container.Resolve<IEncipher>();

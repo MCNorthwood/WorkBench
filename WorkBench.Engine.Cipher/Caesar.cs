@@ -1,6 +1,6 @@
 ﻿using WorkBench.Engine.Interfaces.CaesarCipher;
 
-namespace WorkBench.Engine.Rules;
+namespace WorkBench.Engine.Cipher;
 public class Caesar : ICipher
 {
     public IList<char> Value { get; private set; } = [];
